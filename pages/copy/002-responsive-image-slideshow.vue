@@ -21,9 +21,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// 変数
-$imageNum: 4;
-
 .body {
   width: 100vw;
   height: 100vh;
