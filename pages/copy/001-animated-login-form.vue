@@ -1,16 +1,15 @@
 <template lang="pug">
-  transition(name="page")
-    .body
-      form.box(action="" method="post")
-        h1 Login
-        input(type="text" name="" placeholder="Username")
-        input(type="password" name="" placeholder="Password")
-        input(type="submit" name="" value="Login")
+  .body
+    form.box(action="" method="post")
+      h1 Login
+      input(type="text" name="" placeholder="Username")
+      input(type="password" name="" placeholder="Password")
+      input(type="submit" name="" value="Login")
 </template>
 
 <script>
 export default {
-  name: "001-animated-login-form",
+  name: "animated-login-form",
   head: {
     titleTemplate: "001-animated-login-form"
   }
@@ -18,25 +17,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page-enter,
-.page-leave {
-  opacity: 0;
-
-  // input[type="text"],
-  // input[type="password"] {
-  //   width: 0;
-  // }
-}
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 2s;
-
-  // input[type="text"],
-  // input[type="password"] {
-  //   transition: width 2s;
-  // }
-}
-
 .body {
   width: 100vw;
   height: 100vh;
