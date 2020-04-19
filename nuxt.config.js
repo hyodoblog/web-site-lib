@@ -41,6 +41,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-fontawesome'
   ],
   /*
   ** vuetify module configuration
@@ -66,6 +67,14 @@ export default {
   /*
   ** Build configuration
   */
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
+  },
   build: {
     /*
     ** You can extend webpack config here
