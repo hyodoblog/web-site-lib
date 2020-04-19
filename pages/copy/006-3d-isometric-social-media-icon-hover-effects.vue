@@ -1,10 +1,17 @@
 <template lang="pug">
   .body
+    ul
+      li
+        a(href="#")
+          span
+          span
+          span
+          font-awesome-icon(:icon="['fab','facebook-f']")
 </template>
 
 <script>
 export default {
-  name: "3d-isometric-social-media-icon-hover-effects",
+  name: "three-d-isometric-social-media-icon-hover-effects",
   head: {
     titleTemplate: "006-3d-isometric-social-media-icon-hover-effects"
   }
@@ -20,7 +27,7 @@ export default {
   font-family: "Poppins", sans-serif;
 }
 .body {
-  background: #0a2a43;
+  // background: #0a2a43;
   min-height: 1500px;
 }
 </style>
