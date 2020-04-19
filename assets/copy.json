@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "text": "001-animated-login-form",
+    "image_url": "http://img.youtube.com/vi/HV7DtH3J2PU/mqdefault.jpg",
+    "link": "/copy/001-animated-login-form"
+  },
+  {
+    "id": 2,
+    "text": "002-responsive-image-slideshow",
+    "image_url": "https://www.youtube.com/watch?v=TzAshjkhFQw",
+    "link": "/copy/002-responsive-image-slideshow"
+  },
+  {
+    "id": 3,
+    "text": "003-pure-css-parallax-scrolling",
+    "image_url": "http://img.youtube.com/vi/6CQ7DYni7Bg/mqdefault.jpg",
+    "link": "/copy/003-pure-css-parallax-scrolling"
+  },
+  {
+    "id": 4,
+    "text": "004-glowing-gradient-loader-ring-animation-effects",
+    "image_url": "http://img.youtube.com/vi/4EOUMLgK5Xw/mqdefault.jpg",
+    "link": "/copy/004-glowing-gradient-loader-ring-animation-effects"
+  }
+]
