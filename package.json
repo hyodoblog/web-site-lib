@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "vanilla-tilt": "^1.7.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
