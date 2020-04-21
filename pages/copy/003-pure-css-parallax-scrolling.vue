@@ -7,18 +7,18 @@
 
 <script>
 export default {
-  name: "pure-css-parallax-scrolling",
+  name: "PureCssParallaxScrolling",
   head: {
     titleTemplate: "003-pure-css-parallax-scrolling",
     link: [
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
-      }
-    ]
-  }
-};
+          "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap",
+      },
+    ],
+  },
+}
 </script>
 
 <style lang="scss" scoped>

@@ -13,11 +13,11 @@
 
 <script>
 export default {
-  name: "responsive-image-slideshow",
+  name: "ResponsiveImageSlideshow",
   head: {
-    titleTemplate: "002-responsive-image-slideshow"
-  }
-};
+    titleTemplate: "002-responsive-image-slideshow",
+  },
+}
 </script>
 
 <style lang="scss" scoped>

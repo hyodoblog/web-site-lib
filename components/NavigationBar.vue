@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import copyItem from "@/assets/copy.json";
+import copyItem from "@/assets/copy.json"
 
 export default {
   data: () => ({
@@ -33,11 +33,11 @@ export default {
         "icon-alt": "mdi-chevron-down",
         text: "模写",
         model: false,
-        children: copyItem
-      }
-    ]
-  })
-};
+        children: copyItem,
+      },
+    ],
+  }),
+}
 </script>
 
 <style lang="scss" scoped>

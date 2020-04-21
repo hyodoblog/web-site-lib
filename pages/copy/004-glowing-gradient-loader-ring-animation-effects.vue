@@ -5,11 +5,11 @@
 
 <script>
 export default {
-  name: "glowing-gradient-loader-ring-animation-effects",
+  name: "GlowingGradientLoaderRingAnimationEffects",
   head: {
-    titleTemplate: "004-glowing-gradient-loader-ring-animation-effects"
-  }
-};
+    titleTemplate: "004-glowing-gradient-loader-ring-animation-effects",
+  },
+}
 </script>
 
 <style lang="scss" scoped>

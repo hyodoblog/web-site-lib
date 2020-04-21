@@ -9,11 +9,11 @@
 
 <script>
 export default {
-  name: "hover-effects",
+  name: "HoverEffects",
   head: {
-    titleTemplate: "005-hover-effects"
-  }
-};
+    titleTemplate: "005-hover-effects",
+  },
+}
 </script>
 
 <style lang="scss" scoped>

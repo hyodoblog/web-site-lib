@@ -46,9 +46,9 @@
 <script>
 export default {
   head: {
-    titleTemplate: "006-3d-isometric-social-media-icon-hover-effects"
-  }
-};
+    titleTemplate: "006-3d-isometric-social-media-icon-hover-effects",
+  },
+}
 </script>
 
 <style lang="scss" scoped>

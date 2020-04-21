@@ -9,11 +9,11 @@
 
 <script>
 export default {
-  name: "animated-login-form",
+  name: "AnimatedLoginForm",
   head: {
-    titleTemplate: "001-animated-login-form"
-  }
-};
+    titleTemplate: "001-animated-login-form",
+  },
+}
 </script>
 
 <style lang="scss" scoped>
