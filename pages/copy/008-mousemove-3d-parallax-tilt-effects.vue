@@ -62,6 +62,7 @@ export default {
     margin: 60px 0;
     background: #000;
     background: #000;
+    transform-style: preserve-3d;
 
     &:hover {
       box-shadow: 0 50px 80px rgba(0, 0, 0, 0.2);
@@ -94,7 +95,7 @@ export default {
     }
 
     &:hover .contentBx {
-      transform: translateY(20px) scaleY(1);
+      transform: translateZ(50px) scaleY(1);
     }
   }
 }
