@@ -22,12 +22,6 @@
 export default {
   head: {
     titleTemplate: "009-responsive-contact-info-section-using",
-    link: [
-      {
-        href:
-          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css",
-      },
-    ],
   },
 }
 </script>
