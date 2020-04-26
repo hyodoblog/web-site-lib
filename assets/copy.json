@@ -64,10 +64,17 @@
     "youtube_url": "https://www.youtube.com/watch?v=kw1wnvWjgCw"
   },
   {
-    "id": 10,
+    "id": 11,
     "text": "011-fullscreen-vide-background-fadeout-on-scroll",
     "image_url": "http://img.youtube.com/vi/BmO4NvsmU6s/mqdefault.jpg",
     "link": "/copy/011-fullscreen-vide-background-fadeout-on-scroll",
     "youtube_url": "https://www.youtube.com/watch?v=BmO4NvsmU6s"
+  },
+  {
+    "id": 12,
+    "text": "012-skewed-border-creative-box-border-hover-effects",
+    "image_url": "http://img.youtube.com/vi/-1U62fdmCk4/mqdefault.jpg",
+    "link": "/copy/012-skewed-border-creative-box-border-hover-effects",
+    "youtube_url": "https://www.youtube.com/watch?v=-1U62fdmCk4"
   }
 ]

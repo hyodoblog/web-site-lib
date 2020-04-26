@@ -3,8 +3,7 @@
     navigation-bar
             
     v-content
-      transition(name="page")
-        nuxt
+      nuxt
 
 </template>
 
@@ -19,10 +18,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page-enter {
-  opacity: 0;
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
 }
-.page-enter-active {
-  transition: opacity 2s;
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }
 </style>
