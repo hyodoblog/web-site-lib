@@ -2,43 +2,49 @@
   {
     "id": 1,
     "text": "001-animated-login-form",
-    "image_url": "http://img.youtube.com/vi/HV7DtH3J2PU/mqdefault.jpg",
-    "link": "/copy/001-animated-login-form"
+    "image_url": "https://img.youtube.com/vi/HV7DtH3J2PU/mqdefault.jpg",
+    "link": "/copy/001-animated-login-form",
+    "youtube_url": "https://www.youtube.com/watch?v=HV7DtH3J2PU"
   },
   {
     "id": 2,
     "text": "002-responsive-image-slideshow",
-    "image_url": "https://www.youtube.com/watch?v=TzAshjkhFQw",
-    "link": "/copy/002-responsive-image-slideshow"
+    "image_url": "http://img.youtube.com/vi/TzAshjkhFQw/mqdefault.jpg",
+    "link": "/copy/002-responsive-image-slideshow",
+    "youtube_url": "https://www.youtube.com/watch?v=TzAshjkhFQw"
   },
   {
     "id": 3,
     "text": "003-pure-css-parallax-scrolling",
-    "image_url": "http://img.youtube.com/vi/6CQ7DYni7Bg/mqdefault.jpg",
-    "link": "/copy/003-pure-css-parallax-scrolling"
+    "image_url": "https://img.youtube.com/vi/6CQ7DYni7Bg/mqdefault.jpg",
+    "link": "/copy/003-pure-css-parallax-scrolling",
+    "youtube_url": "https://www.youtube.com/watch?v=6CQ7DYni7Bg"
   },
   {
     "id": 4,
     "text": "004-glowing-gradient-loader-ring-animation-effects",
-    "image_url": "http://img.youtube.com/vi/4EOUMLgK5Xw/mqdefault.jpg",
-    "link": "/copy/004-glowing-gradient-loader-ring-animation-effects"
+    "image_url": "https://img.youtube.com/vi/4EOUMLgK5Xw/mqdefault.jpg",
+    "link": "/copy/004-glowing-gradient-loader-ring-animation-effects",
+    "youtube_url": "https://www.youtube.com/watch?v=4EOUMLgK5Xw"
   },
   {
     "id": 5,
     "text": "005-hover-effects",
-    "image_url": "http://img.youtube.com/vi/qXj-KdVtPRA/mqdefault.jpg",
-    "link": "/copy/005-hover-effects"
+    "image_url": "https://img.youtube.com/vi/qXj-KdVtPRA/mqdefault.jpg",
+    "link": "/copy/005-hover-effects",
+    "youtube_url": "https://www.youtube.com/watch?v=qXj-KdVtPRA"
   },
   {
     "id": 6,
     "text": "006-3d-isometric-social-media-icon-hover-effects",
-    "image_url": "http://img.youtube.com/vi/C8wSNZqktOM/mqdefault.jpg",
-    "link": "/copy/006-3d-isometric-social-media-icon-hover-effects"
+    "image_url": "https://img.youtube.com/vi/C8wSNZqktOM/mqdefault.jpg",
+    "link": "/copy/006-3d-isometric-social-media-icon-hover-effects",
+    "youtube_url": "https://www.youtube.com/watch?v=C8wSNZqktOM"
   },
   {
     "id": 7,
     "text": "007-neumorphism-gradient-loader-animation-effects",
-    "image_url": "http://img.youtube.com/vi/84zfkJwWEjg/mqdefault.jpg",
+    "image_url": "https://img.youtube.com/vi/84zfkJwWEjg/mqdefault.jpg",
     "link": "/copy/007-neumorphism-gradient-loader-animation-effects",
     "youtube_url": "https://www.youtube.com/watch?v=84zfkJwWEjg"
   },
@@ -76,5 +82,12 @@
     "image_url": "http://img.youtube.com/vi/-1U62fdmCk4/mqdefault.jpg",
     "link": "/copy/012-skewed-border-creative-box-border-hover-effects",
     "youtube_url": "https://www.youtube.com/watch?v=-1U62fdmCk4"
+  },
+  {
+    "id": 13,
+    "text": "013-creative-page-scroll-progress-bar",
+    "image_url": "http://img.youtube.com/vi/qYFkQa0Bbq0/mqdefault.jpg",
+    "link": "/copy/013-creative-page-scroll-progress-bar",
+    "youtube_url": "https://www.youtube.com/watch?v=-qYFkQa0Bbq0"
   }
 ]
