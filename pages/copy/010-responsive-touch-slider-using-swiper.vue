@@ -9,6 +9,7 @@
             h3 {{ item.title }}
               br
               span {{ item.describe }}
+      .swiper-pagination
 </template>
 
 <script>
@@ -68,6 +69,10 @@ export default {
       pagination: {
         el: ".swiper-pagination",
       },
+      paginationClickable: true,
+      loop: true,
+      speed: 1000,
+      autoplay: true,
     })
   },
   head: {

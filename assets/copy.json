@@ -62,5 +62,12 @@
     "image_url": "http://img.youtube.com/vi/kw1wnvWjgCw/mqdefault.jpg",
     "link": "/copy/010-responsive-touch-slider-using-swiper",
     "youtube_url": "https://www.youtube.com/watch?v=kw1wnvWjgCw"
+  },
+  {
+    "id": 10,
+    "text": "011-fullscreen-vide-background-fadeout-on-scroll",
+    "image_url": "http://img.youtube.com/vi/BmO4NvsmU6s/mqdefault.jpg",
+    "link": "/copy/011-fullscreen-vide-background-fadeout-on-scroll",
+    "youtube_url": "https://www.youtube.com/watch?v=BmO4NvsmU6s"
   }
 ]
