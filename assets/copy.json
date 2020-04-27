@@ -2,92 +2,99 @@
   {
     "id": 1,
     "text": "001-animated-login-form",
-    "image_url": "https://img.youtube.com/vi/HV7DtH3J2PU/mqdefault.jpg",
+    "imageUrl": "https://img.youtube.com/vi/HV7DtH3J2PU/mqdefault.jpg",
     "link": "/copy/001-animated-login-form",
-    "youtube_url": "https://www.youtube.com/watch?v=HV7DtH3J2PU"
+    "youtubeUrl": "https://www.youtube.com/embed/HV7DtH3J2PU"
   },
   {
     "id": 2,
     "text": "002-responsive-image-slideshow",
-    "image_url": "http://img.youtube.com/vi/TzAshjkhFQw/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/TzAshjkhFQw/mqdefault.jpg",
     "link": "/copy/002-responsive-image-slideshow",
-    "youtube_url": "https://www.youtube.com/watch?v=TzAshjkhFQw"
+    "youtubeUrl": "https://www.youtube.com/embed/TzAshjkhFQw"
   },
   {
     "id": 3,
     "text": "003-pure-css-parallax-scrolling",
-    "image_url": "https://img.youtube.com/vi/6CQ7DYni7Bg/mqdefault.jpg",
+    "imageUrl": "https://img.youtube.com/vi/6CQ7DYni7Bg/mqdefault.jpg",
     "link": "/copy/003-pure-css-parallax-scrolling",
-    "youtube_url": "https://www.youtube.com/watch?v=6CQ7DYni7Bg"
+    "youtubeUrl": "https://www.youtube.com/embed/6CQ7DYni7Bg"
   },
   {
     "id": 4,
     "text": "004-glowing-gradient-loader-ring-animation-effects",
-    "image_url": "https://img.youtube.com/vi/4EOUMLgK5Xw/mqdefault.jpg",
+    "imageUrl": "https://img.youtube.com/vi/4EOUMLgK5Xw/mqdefault.jpg",
     "link": "/copy/004-glowing-gradient-loader-ring-animation-effects",
-    "youtube_url": "https://www.youtube.com/watch?v=4EOUMLgK5Xw"
+    "youtubeUrl": "https://www.youtube.com/embed/4EOUMLgK5Xw"
   },
   {
     "id": 5,
     "text": "005-hover-effects",
-    "image_url": "https://img.youtube.com/vi/qXj-KdVtPRA/mqdefault.jpg",
+    "imageUrl": "https://img.youtube.com/vi/qXj-KdVtPRA/mqdefault.jpg",
     "link": "/copy/005-hover-effects",
-    "youtube_url": "https://www.youtube.com/watch?v=qXj-KdVtPRA"
+    "youtubeUrl": "https://www.youtube.com/embed/qXj-KdVtPRA"
   },
   {
     "id": 6,
     "text": "006-3d-isometric-social-media-icon-hover-effects",
-    "image_url": "https://img.youtube.com/vi/C8wSNZqktOM/mqdefault.jpg",
+    "imageUrl": "https://img.youtube.com/vi/C8wSNZqktOM/mqdefault.jpg",
     "link": "/copy/006-3d-isometric-social-media-icon-hover-effects",
-    "youtube_url": "https://www.youtube.com/watch?v=C8wSNZqktOM"
+    "youtubeUrl": "https://www.youtube.com/embed/C8wSNZqktOM"
   },
   {
     "id": 7,
     "text": "007-neumorphism-gradient-loader-animation-effects",
-    "image_url": "https://img.youtube.com/vi/84zfkJwWEjg/mqdefault.jpg",
+    "imageUrl": "https://img.youtube.com/vi/84zfkJwWEjg/mqdefault.jpg",
     "link": "/copy/007-neumorphism-gradient-loader-animation-effects",
-    "youtube_url": "https://www.youtube.com/watch?v=84zfkJwWEjg"
+    "youtubeUrl": "https://www.youtube.com/embed/84zfkJwWEjg"
   },
   {
     "id": 8,
     "text": "008-mousemove-3d-parallax-tilt-effects",
-    "image_url": "http://img.youtube.com/vi/DvjiTCHC-uY/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/DvjiTCHC-uY/mqdefault.jpg",
     "link": "/copy/008-mousemove-3d-parallax-tilt-effects",
-    "youtube_url": "https://www.youtube.com/watch?v=DvjiTCHC-uY"
+    "youtubeUrl": "https://www.youtube.com/embed/DvjiTCHC-uY"
   },
   {
     "id": 9,
     "text": "009-responsive-contact-info-section-using",
-    "image_url": "http://img.youtube.com/vi/Va_wdFgvG2U/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/Va_wdFgvG2U/mqdefault.jpg",
     "link": "/copy/009-responsive-contact-info-section-using",
-    "youtube_url": "https://www.youtube.com/watch?v=Va_wdFgvG2U"
+    "youtubeUrl": "https://www.youtube.com/embed/Va_wdFgvG2U"
   },
   {
     "id": 10,
     "text": "010-responsive-touch-slider-using-swiper",
-    "image_url": "http://img.youtube.com/vi/kw1wnvWjgCw/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/kw1wnvWjgCw/mqdefault.jpg",
     "link": "/copy/010-responsive-touch-slider-using-swiper",
-    "youtube_url": "https://www.youtube.com/watch?v=kw1wnvWjgCw"
+    "youtubeUrl": "https://www.youtube.com/embed/kw1wnvWjgCw"
   },
   {
     "id": 11,
     "text": "011-fullscreen-vide-background-fadeout-on-scroll",
-    "image_url": "http://img.youtube.com/vi/BmO4NvsmU6s/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/BmO4NvsmU6s/mqdefault.jpg",
     "link": "/copy/011-fullscreen-vide-background-fadeout-on-scroll",
-    "youtube_url": "https://www.youtube.com/watch?v=BmO4NvsmU6s"
+    "youtubeUrl": "https://www.youtube.com/embed/BmO4NvsmU6s"
   },
   {
     "id": 12,
     "text": "012-skewed-border-creative-box-border-hover-effects",
-    "image_url": "http://img.youtube.com/vi/-1U62fdmCk4/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/-1U62fdmCk4/mqdefault.jpg",
     "link": "/copy/012-skewed-border-creative-box-border-hover-effects",
-    "youtube_url": "https://www.youtube.com/watch?v=-1U62fdmCk4"
+    "youtubeUrl": "https://www.youtube.com/embed/-1U62fdmCk4"
   },
   {
     "id": 13,
     "text": "013-creative-page-scroll-progress-bar",
-    "image_url": "http://img.youtube.com/vi/qYFkQa0Bbq0/mqdefault.jpg",
+    "imageUrl": "http://img.youtube.com/vi/qYFkQa0Bbq0/mqdefault.jpg",
     "link": "/copy/013-creative-page-scroll-progress-bar",
-    "youtube_url": "https://www.youtube.com/watch?v=-qYFkQa0Bbq0"
+    "youtubeUrl": "https://www.youtube.com/embed/qYFkQa0Bbq0"
+  },
+  {
+    "id": 14,
+    "text": "014-animate-any-svg-icons",
+    "imageUrl": "http://img.youtube.com/vi/0cYdA4MBwhk/mqdefault.jpg",
+    "link": "/copy/014-animate-any-svg-icons",
+    "youtubeUrl": "https://www.youtube.com/embed/0cYdA4MBwhk"
   }
 ]

@@ -1,7 +1,7 @@
 <template lang="pug">
   .body
     section
-      video(src="https://vod-progressive.akamaized.net/exp=1587918406~acl=%2A%2F1646772255.mp4%2A~hmac=40d94a4e99503e86d0d9be65908256dc069d6e0201cb7081d6892d0bf48d55e7/vimeo-prod-skyfire-std-us/01/2944/15/389724705/1646772255.mp4" autoplay="" muted="" loop="")
+      video(src="https://hyodoblog.com/wp-content/uploads/2020/04/学プロプレゼン動画_ショートver.mp4" autoplay="" muted="" loop="")
     section
       .content
         h2 Fadeout Video Background On Scroll

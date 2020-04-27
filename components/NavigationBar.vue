@@ -2,6 +2,7 @@
   v-navigation-drawer(app)
     template(v-for="item in items")
       v-list-group(
+        v-if="item.children"
         :key="item.text"
         v-model="item.model"
         :prepend-icon="item.model ? item.icon : item['icon-alt']"
@@ -20,6 +21,16 @@
               v-icon {{ child.icon }}
             v-list-item-content
               v-list-item-title {{ child.text }}
+      v-list-item(
+        v-else
+        :key="item.text"
+        link
+      )
+        nuxt-link(:to="item.link")
+          v-list-item-action
+            v-icon {{ item.icon }}
+          v-list-item-content
+            v-list-item-title {{ item.text }}
 </template>
 
 <script>
@@ -28,6 +39,11 @@ import copyItem from "@/assets/copy.json"
 export default {
   data: () => ({
     items: [
+      {
+        icon: "mdi-home",
+        text: "トップ",
+        link: "/",
+      },
       {
         icon: "mdi-chevron-up",
         "icon-alt": "mdi-chevron-down",
@@ -43,6 +59,7 @@ export default {
 <style lang="scss" scoped>
 a {
   text-decoration: none;
+  display: flex;
   div {
     color: #191919;
   }
