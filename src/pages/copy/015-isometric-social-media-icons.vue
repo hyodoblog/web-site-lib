@@ -21,7 +21,7 @@
 <script>
 export default {
   head: {
-    titleTemplate: "015-isometric-social-media-icons",
+    titleTemplate: '015-isometric-social-media-icons',
   },
 }
 </script>
@@ -59,7 +59,7 @@ ul {
       box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         top: 10px;
         left: -20px;
@@ -71,7 +71,7 @@ ul {
       }
 
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         bottom: -20px;
         left: -10px;
@@ -83,8 +83,7 @@ ul {
       }
 
       &:hover {
-        transform: perspective(1000px) rotate(-30deg) skew(25deg)
-          translate(20px, -20px);
+        transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
         box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
       }
 

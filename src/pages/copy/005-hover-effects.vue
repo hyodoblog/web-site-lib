@@ -9,9 +9,9 @@
 
 <script>
 export default {
-  name: "HoverEffects",
+  name: 'HoverEffects',
   head: {
-    titleTemplate: "005-hover-effects",
+    titleTemplate: '005-hover-effects',
   },
 }
 </script>
@@ -39,8 +39,7 @@ export default {
 
   &:hover {
     background: #03e9f4;
-    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-      0 0 200px #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
   }
 
   span {

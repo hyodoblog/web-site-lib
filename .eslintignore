@@ -4,3 +4,6 @@ node_modules
 dist
 
 src/static/*
+
+*.min.css
+*.min.js

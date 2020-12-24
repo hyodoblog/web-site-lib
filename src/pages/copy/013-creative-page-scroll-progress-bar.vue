@@ -69,23 +69,23 @@
 
 <script>
 export default {
+  head: {
+    titleTemplate: '013-creative-page-scroll-progress-bar',
+  },
   mounted() {
-    let progress = document.getElementById("progressbar")
-    let totalHeight = document.body.scrollHeight - window.innerHeight
+    const progress = document.getElementById('progressbar')
+    const totalHeight = document.body.scrollHeight - window.innerHeight
     window.onscroll = () => {
-      let progressHeight = (window.pageYOffset / totalHeight) * 100
-      progress.style.height = progressHeight + "%"
+      const progressHeight = (window.pageYOffset / totalHeight) * 100
+      progress.style.height = progressHeight + '%'
       console.log(progressHeight)
     }
-  },
-  head: {
-    titleTemplate: "013-creative-page-scroll-progress-bar",
   },
 }
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -131,7 +131,7 @@ section {
   animation: animate 5s linear infinite;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -142,7 +142,7 @@ section {
   }
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;

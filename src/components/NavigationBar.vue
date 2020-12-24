@@ -34,20 +34,20 @@
 </template>
 
 <script>
-import copyItem from "@/assets/copy.json"
+import copyItem from '@/assets/copy.json'
 
 export default {
   data: () => ({
     items: [
       {
-        icon: "mdi-home",
-        text: "トップ",
-        link: "/",
+        icon: 'mdi-home',
+        text: 'トップ',
+        link: '/',
       },
       {
-        icon: "mdi-chevron-up",
-        "icon-alt": "mdi-chevron-down",
-        text: "模写",
+        icon: 'mdi-chevron-up',
+        'icon-alt': 'mdi-chevron-down',
+        text: '模写',
         model: false,
         children: copyItem,
       },

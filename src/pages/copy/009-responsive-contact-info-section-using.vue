@@ -21,7 +21,7 @@
 <script>
 export default {
   head: {
-    titleTemplate: "009-responsive-contact-info-section-using",
+    titleTemplate: '009-responsive-contact-info-section-using',
   },
 }
 </script>
@@ -31,12 +31,11 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .body {
   height: 100vh;
-  background: url("~assets/images/copy/009-responsive-contact-info-section-using/bg.jpg")
-    no-repeat center;
+  background: url('~assets/images/copy/009-responsive-contact-info-section-using/bg.jpg') no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;

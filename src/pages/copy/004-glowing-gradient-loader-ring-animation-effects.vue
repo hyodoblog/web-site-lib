@@ -5,9 +5,9 @@
 
 <script>
 export default {
-  name: "GlowingGradientLoaderRingAnimationEffects",
+  name: 'GlowingGradientLoaderRingAnimationEffects',
   head: {
-    titleTemplate: "004-glowing-gradient-loader-ring-animation-effects",
+    titleTemplate: '004-glowing-gradient-loader-ring-animation-effects',
   },
 }
 </script>
@@ -36,7 +36,7 @@ export default {
   animation: animate 2s linear infinite;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 6px;
     left: 6px;
@@ -48,7 +48,7 @@ export default {
   }
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0px;
     left: 0px;

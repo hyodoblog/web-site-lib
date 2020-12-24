@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import "swiper/css/swiper.min.css"
-import Swiper from "swiper"
+import 'swiper/css/swiper.min.css'
+import Swiper from 'swiper'
 
 export default {
   data() {
@@ -22,43 +22,46 @@ export default {
       items: [
         {
           imageUrl:
-            "http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/132/1920x1080xd8e99896eef0f5ef3d472b.jpg",
-          title: "John Doe",
-          describe: "Web Designer",
+            'http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/132/1920x1080xd8e99896eef0f5ef3d472b.jpg',
+          title: 'John Doe',
+          describe: 'Web Designer',
         },
         {
           imageUrl:
-            "http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/134/1920x1080xfd2a3d9bda937577183f2a.jpg",
-          title: "John Doe",
-          describe: "Web Designer",
+            'http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/134/1920x1080xfd2a3d9bda937577183f2a.jpg',
+          title: 'John Doe',
+          describe: 'Web Designer',
         },
         {
           imageUrl:
-            "http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/57/1920x1080x05595ba979e2bf2ce97014.jpg",
-          title: "John Doe",
-          describe: "Web Designer",
+            'http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/57/1920x1080x05595ba979e2bf2ce97014.jpg',
+          title: 'John Doe',
+          describe: 'Web Designer',
         },
         {
           imageUrl:
-            "http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/129/1920x1080xb207116b68e633b49d5098.jpg",
-          title: "John Doe",
-          describe: "Web Designer",
+            'http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/129/1920x1080xb207116b68e633b49d5098.jpg',
+          title: 'John Doe',
+          describe: 'Web Designer',
         },
         {
           imageUrl:
-            "http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/132/1920x1080xd8e99896eef0f5ef3d472b.jpg",
-          title: "John Doe",
-          describe: "Web Designer",
+            'http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/132/1920x1080xd8e99896eef0f5ef3d472b.jpg',
+          title: 'John Doe',
+          describe: 'Web Designer',
         },
       ],
     }
   },
+  head: {
+    titleTemplate: '010-responsive-touch-slider-using-swiper',
+  },
   mounted() {
-    new Swiper(".swiper-container", {
-      effect: "coverflow",
+    new Swiper('.swiper-container', {
+      effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: "auto",
+      slidesPerView: 'auto',
       coverflowEffect: {
         rotate: 60,
         stretch: 0,
@@ -67,16 +70,13 @@ export default {
         slideShadows: true,
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: '.swiper-pagination',
       },
       paginationClickable: true,
       loop: true,
       speed: 1000,
       autoplay: true,
     })
-  },
-  head: {
-    titleTemplate: "010-responsive-touch-slider-using-swiper",
   },
 }
 </script>

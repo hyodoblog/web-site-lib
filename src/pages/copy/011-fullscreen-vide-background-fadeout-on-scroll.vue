@@ -10,27 +10,27 @@
 
 <script>
 export default {
+  head: {
+    titleTemplate: '011-fullscreen-vide-background-fadeout-on-scroll',
+  },
   mounted() {
-    let video = document.querySelector("video")
-    window.addEventListener("scroll", () => {
-      let value = 1 + window.scrollY / -600
+    const video = document.querySelector('video')
+    window.addEventListener('scroll', () => {
+      const value = 1 + window.scrollY / -600
       video.style.opacity = value
     })
-  },
-  head: {
-    titleTemplate: "011-fullscreen-vide-background-fadeout-on-scroll",
   },
 }
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .body {
   background: #000;

@@ -9,9 +9,9 @@
 
 <script>
 export default {
-  name: "AnimatedLoginForm",
+  name: 'AnimatedLoginForm',
   head: {
-    titleTemplate: "001-animated-login-form",
+    titleTemplate: '001-animated-login-form',
   },
 }
 </script>
@@ -54,8 +54,8 @@ export default {
     transition: 0.25s;
   }
 
-  input[type="text"],
-  input[type="password"] {
+  input[type='text'],
+  input[type='password'] {
     padding: 14px 10px;
     width: 200px;
     border: 2px solid #3498bd;
@@ -66,7 +66,7 @@ export default {
     }
   }
 
-  input[type="submit"] {
+  input[type='submit'] {
     border: 2px solid hsl(196, 57%, 47%);
     padding: 14px 40px;
     cursor: pointer;

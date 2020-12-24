@@ -4,10 +4,13 @@
 </template>
 
 <script>
-import ScrollOut from "scroll-out"
+import ScrollOut from 'scroll-out'
 
 export default {
-  name: "AppleScroll",
+  name: 'AppleScroll',
+  head: {
+    titleTemplate: 'apple-scroll',
+  },
   mounted() {
     ScrollOut({
       onShown: (el) => {
@@ -18,9 +21,6 @@ export default {
         el.style.opacity = 0
       },
     })
-  },
-  head: {
-    titleTemplate: "apple-scroll",
   },
 }
 </script>

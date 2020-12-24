@@ -16,29 +16,29 @@
 </template>
 
 <script>
-import VanillaTilt from "vanilla-tilt"
+import VanillaTilt from 'vanilla-tilt'
 
 export default {
+  head: {
+    titleTemplate: '008-mousemove-3d-parallax-tilt-effects',
+  },
   mounted() {
-    VanillaTilt.init(document.querySelectorAll(".box"), {
+    VanillaTilt.init(document.querySelectorAll('.box'), {
       max: 25,
       speed: 400,
     })
-  },
-  head: {
-    titleTemplate: "008-mousemove-3d-parallax-tilt-effects",
   },
 }
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .body {
   display: flex;

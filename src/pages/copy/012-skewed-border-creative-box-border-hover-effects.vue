@@ -15,46 +15,46 @@ export default {
     return {
       items: [
         {
-          title: "01",
-          subTitle: "Service One",
+          title: '01',
+          subTitle: 'Service One',
           describe:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         },
         {
-          title: "02",
-          subTitle: "Service Two",
+          title: '02',
+          subTitle: 'Service Two',
           describe:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         },
         {
-          title: "03",
-          subTitle: "Service Three",
+          title: '03',
+          subTitle: 'Service Three',
           describe:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         },
         {
-          title: "04",
-          subTitle: "Service Four",
+          title: '04',
+          subTitle: 'Service Four',
           describe:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         },
       ],
     }
   },
   head: {
-    titleTemplate: "012-skewed-border-creative-box-border-hover-effects",
+    titleTemplate: '012-skewed-border-creative-box-border-hover-effects',
   },
 }
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .body {
   display: flex;
@@ -82,7 +82,7 @@ export default {
     border: 1px solid #000;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: -2px;
       left: -2px;

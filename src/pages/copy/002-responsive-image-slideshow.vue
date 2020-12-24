@@ -13,9 +13,9 @@
 
 <script>
 export default {
-  name: "ResponsiveImageSlideshow",
+  name: 'ResponsiveImageSlideshow',
   head: {
-    titleTemplate: "002-responsive-image-slideshow",
+    titleTemplate: '002-responsive-image-slideshow',
   },
 }
 </script>
@@ -49,21 +49,21 @@ export default {
   &:nth-child(1) {
     left: 0%;
     animation-delay: -1s;
-    background-image: url("http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/190/1920x1080xa215189de5ef3506289c6c.jpg");
+    background-image: url('http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/190/1920x1080xa215189de5ef3506289c6c.jpg');
     background-size: cover;
     background-position: center;
   }
 
   &:nth-child(2) {
     animation-delay: 2s;
-    background-image: url("http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/198/1920x1080x325f3e657baa60cfc6eedf.jpg");
+    background-image: url('http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/198/1920x1080x325f3e657baa60cfc6eedf.jpg');
     background-size: cover;
     background-position: center;
   }
 
   &:nth-child(3) {
     animation-delay: 5s;
-    background-image: url("http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/202/1920x1080xeb6511cfd196cb5cbf0373.jpg");
+    background-image: url('http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/202/1920x1080xeb6511cfd196cb5cbf0373.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -71,7 +71,7 @@ export default {
   &:nth-child(4) {
     left: 0%;
     animation-delay: 8s;
-    background-image: url("http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/211/1920x1080x7bcd564ca8d55a751d171d.jpg");
+    background-image: url('http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/211/1920x1080x7bcd564ca8d55a751d171d.jpg');
     background-size: cover;
     background-position: center;
   }

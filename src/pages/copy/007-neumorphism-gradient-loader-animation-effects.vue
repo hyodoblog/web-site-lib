@@ -8,7 +8,7 @@
 <script>
 export default {
   head: {
-    titleTemplate: "007-neumorphism-gradient-loader-animation-effects",
+    titleTemplate: '007-neumorphism-gradient-loader-animation-effects',
   },
 }
 </script>
@@ -33,13 +33,11 @@ export default {
   border: 4px solid #240229;
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.1),
-    10px 10px 10px rgba(0, 0, 0, 0.4),
-    inset -5px -5px 5px rgba(255, 255, 255, 0.2),
-    inset 10px 10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.1), 10px 10px 10px rgba(0, 0, 0, 0.4),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 10px 10px 10px rgba(0, 0, 0, 0.4);
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 25px;
     left: 25px;
@@ -49,8 +47,7 @@ export default {
     background: #240229;
     border-radius: 50%;
     border: 2px solid #240229;
-    box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.2),
-      inset 3px 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.2), inset 3px 3px 5px rgba(0, 0, 0, 0.5);
   }
 
   span {

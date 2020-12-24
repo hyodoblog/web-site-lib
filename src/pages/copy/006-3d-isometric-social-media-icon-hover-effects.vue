@@ -46,7 +46,7 @@
 <script>
 export default {
   head: {
-    titleTemplate: "006-3d-isometric-social-media-icon-hover-effects",
+    titleTemplate: '006-3d-isometric-social-media-icon-hover-effects',
   },
 }
 </script>
@@ -98,7 +98,7 @@ ul {
     }
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       bottom: -10px;
       left: 0;
@@ -110,7 +110,7 @@ ul {
     }
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: -9px;

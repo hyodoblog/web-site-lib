@@ -7,14 +7,13 @@
 
 <script>
 export default {
-  name: "PureCssParallaxScrolling",
+  name: 'PureCssParallaxScrolling',
   head: {
-    titleTemplate: "003-pure-css-parallax-scrolling",
+    titleTemplate: '003-pure-css-parallax-scrolling',
     link: [
       {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap",
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap',
       },
     ],
   },
@@ -32,7 +31,7 @@ export default {
   transform-style: preserve-3d;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "Shadows Into Light", cursive;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 header {
@@ -50,13 +49,13 @@ header {
   &::before {
     background: 50% 50% / cover;
     bottom: 0;
-    content: "";
+    content: '';
     left: 0;
     position: absolute;
     right: 0;
     top: 0;
     display: block;
-    background-image: url("http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/156/1920x1080xca044d09c1466e92ddcf16.jpg");
+    background-image: url('http://imgcc.naver.jp/kaze/mission/USER/20131024/30/385770/156/1920x1080xca044d09c1466e92ddcf16.jpg');
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);

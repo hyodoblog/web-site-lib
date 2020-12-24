@@ -5,9 +5,9 @@
 
 <script>
 export default {
-  name: "UnityWebgl",
+  name: 'UnityWebgl',
   head: {
-    titleTemplate: "unity-webgl",
+    titleTemplate: 'unity-webgl',
   },
 }
 </script>
