@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import 'swiper/css/swiper.min.css'
+import '~/assets/src/copy/010-responsive-touch-slider-using-swiper/swiper.min.css'
 import Swiper from 'swiper'
 
 export default {

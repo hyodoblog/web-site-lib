@@ -2,7 +2,7 @@
   v-app
     navigation-bar
             
-    v-content
+    v-main
       nuxt
 
 </template>
