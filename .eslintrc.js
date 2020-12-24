@@ -2,25 +2,29 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
-  },
-  parserOptions: {
-    parser: "babel-eslint"
+    node: true,
   },
   extends: [
-    "eslint:recommended",
-    // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-    // より厳しいルールにするには`plugin:vue/strongly-recommended` もしくは `plugin:vue/recommended` に切り替えることを検討してください。
-    "plugin:vue/recommended",
-    "plugin:prettier/recommended"
+    '@nuxtjs/eslint-config-typescript',
+    'eslint:recommended',
+    'prettier',
+    'prettier/vue',
+    'plugin:prettier/recommended',
+    'plugin:nuxt/recommended',
   ],
-  // *.vue ファイルを lint にかけるために必要
-  plugins: ["vue"],
-  // ここにカスタムルールを追加します。
+  plugins: ['prettier'],
+  // add your custom rules here
   rules: {
-    semi: [2, "never"],
-    "no-console": "off",
-    "vue/max-attributes-per-line": "off",
-    "prettier/prettier": ["error", { semi: false }]
-  }
-};
+    semi: [2, 'never'],
+    'no-console': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'prettier/prettier': ['error', { semi: false }],
+    'no-unused-vars': 'off',
+    camelcase: [
+      0,
+      {
+        properties: 'always',
+      },
+    ],
+  },
+}
