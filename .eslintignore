@@ -1,0 +1,6 @@
+.gitignore
+functions
+node_modules
+dist
+
+src/static/*
