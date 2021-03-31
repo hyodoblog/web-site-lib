@@ -1,6 +1,7 @@
 // import colors from 'vuetify/es5/util/colors'
+import { NuxtConfig } from '@nuxt/types'
 
-export default {
+const config: NuxtConfig = {
   srcDir: 'src/',
   ssr: false,
   head: {
@@ -36,3 +37,5 @@ export default {
   },
   build: {},
 }
+
+export default config
